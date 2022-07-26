@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #373738;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: #82E1F7;
+  font-family: poppins;
+  font-weight: semi-bold;
+  font-size: 12pt;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+.hello-text {
+  font-family: Poppins, sans-serif;
+  color: #ff84ff;
+  font-size: 16px;
+  font-weight: 400;
+}
+h1 {
+  font-family: Poppins, sans-serif;
+  color: #82E1F7;
+  font-size: 36px;
+  font-weight: 400;
+}
+h2 {
+  font-family: Poppins, sans-serif;
+  color: #82E1F7;
+  font-size: 48px;
+  font-weight: Semi-Bold;
+}
+h3 {
+  font-family: Poppins, sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: Semi-Bold;
+}
+p {
+  font-family: Poppins, sans-serif;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #FFFFFF;
+  padding: 15px 15px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  border-radius: 8px;
+}
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: #82E1F7;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+  font-family: poppins;
+  font-weight: semi-bold;
+  font-size: 12pt;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+/* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+
+/* My Work Section */
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #ffffff;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
+@media only screen and (max-width: 600px) {
+  .flexContainer {
+  flex-direction: column;
+  width: 100%;
+
+}
+.workGrid {
+  grid-template-columns: 100%;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+  "img1" 
+  "content1"
+  "img2"
+  "content2"
+  "img3" 
+  "content3"
+  ;
+}
+}
+
+/* Toggle dropdown below! */
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: poppins;;
+}
+#dropDown {
+  display: none;
+}
+#toggle {
+  background-color: #373738;
+  padding: 15px;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer; 
+}
+
+#dropDown ul {
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+  
+}
+.toggle li {
+  margin:0;
+  padding: 15px;
+  list-style-type: none !important;
+  text-decoration: none;
+}
+.dropDown-item {
+  list-style-type: none;
+}
+#toggle img {
+  width: 18px;
+}
