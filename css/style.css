@@ -43,7 +43,7 @@ h3 {
 p {
   font-family: Poppins, sans-serif;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 header p {
@@ -51,7 +51,13 @@ header p {
 }
 .heroImg {
   background-color: #FFFFFF;
-  padding: 15px 15px;
+  padding: 25px 25px;
+}
+.left {
+  float: left;
+  padding-right: 50px;
+  border-radius: 15px;
+  width: 40%;
 }
 .center {
   display: block;
@@ -61,14 +67,14 @@ header p {
   border-radius: 15px;
 }
 .content {
-  max-width: 300px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 50px;
   background-color: #FFFFFF;
   font-family: Poppins, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
 }
 button {
   padding: 15px;
@@ -121,7 +127,7 @@ footer li {
   grid-template-rows: 350px 350px 350px;
   grid-template-areas:
   "img1 content1"
-  "img2 content2"
+  "content2 img2"
   "img3 content3"
   ;
 }
