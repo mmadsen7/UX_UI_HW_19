@@ -56,7 +56,6 @@ header p {
 .left {
   float: left;
   padding-right: 50px;
-  border-radius: 15px;
   width: 40%;
 }
 .center {
